@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './BookingDetails.css';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const BookingDetails = () => {
     const { id } = useParams();
-
     const [details, setDetails] = useState({})
 
     useEffect(() => {
@@ -23,7 +23,7 @@ const BookingDetails = () => {
                         <h2 className="card-title">{details.name}</h2>
                         <h4 className="card-text text-danger">Package Booking Price: {details.price}</h4>
                         <p>{details.description}</p>
-                        <button className="">Confirm Package</button>
+                        <Link to={`/manage-orders/${details._id}`}><button className="">Confirm Package</button></Link>
                     </div>
                 </div>
         </div>

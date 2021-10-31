@@ -17,7 +17,7 @@ const AddPlaces = () => {
     }
     return (
         <div className="addPlace-section">
-            <h3 className="pt-4">Please Add New Destinations</h3>
+            <h3 className="pt-5">Add New Destinations by Admin</h3>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input {...register("name", { required: true, maxLength: 20 })} placeholder=" Package/Place Name" />
                 <textarea className="ps-1" {...register("description", { required: true })} placeholder="Package Description" />

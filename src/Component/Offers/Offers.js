@@ -13,7 +13,7 @@ const Offers = (props) => {
                         <h5 className="pb-2">Package Charge: ${price}</h5>
                         <p className="card-text">{description}</p>
                         <p className="card-text">{cost}</p>
-                        <Link to={`/placeorder/${_id}`}>
+                        <Link to={`/package-details/${_id}`}>
                             <button className="book-button">Book Now</button>
                         </Link>
                     </div>

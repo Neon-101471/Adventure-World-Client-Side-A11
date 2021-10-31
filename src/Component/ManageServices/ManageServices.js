@@ -31,11 +31,11 @@ const ManageServices = () => {
 
     return (
         <div className="manage-section">
-            <h2 className="mt-4 mb-5">Manage Your Services</h2>
+            <h2 className="mt-4 mb-3 pt-2">Manage Services by Admin</h2>
             <div className="manage-container">
                 {
                     services.map(service => <div key={service._id} className="manage-single-service">
-                        <img src={service.img} alt="" className="" />
+                        <img src={service.img} alt="" className="me-2" />
                         <h3 className="me-3">{service.name}</h3>
                         <button>Update</button>
                         <button className="ms-3" onClick={() => handleDelete(service._id)}>Delete</button>
