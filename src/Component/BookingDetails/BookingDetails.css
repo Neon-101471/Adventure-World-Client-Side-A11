@@ -1,0 +1,23 @@
+.placeOrder-section{
+    background-color: rgb(211, 238, 229);
+}
+
+.placeOrder-section img{
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+}
+
+.single-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-section{
+    background-color: cornsilk;
+    margin-right: 10px;
+    margin-left: 5px;
+}

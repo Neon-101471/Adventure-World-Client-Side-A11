@@ -1,0 +1,14 @@
+.signup-section{
+    min-height: 75vh;
+    margin-bottom: 0px;
+}
+
+.signup-button{
+    width: 180px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}

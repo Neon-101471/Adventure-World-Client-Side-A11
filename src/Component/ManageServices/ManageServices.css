@@ -1,0 +1,16 @@
+.manage-container img{
+    width: 60px;
+}
+
+.manage-single-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+/* @media screen and (min-width: 688px) {
+    .manage-single-service img{
+        margin-left: 400px;
+    }
+  } */
