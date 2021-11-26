@@ -10,6 +10,7 @@ const Attractions = () => {
             .then(res => res.json())
             .then(data => setAttractions(data))
     }, [])
+
     return (
         <div className="attraction-section">
             <div className="container">
